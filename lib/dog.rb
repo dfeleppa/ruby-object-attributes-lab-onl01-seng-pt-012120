@@ -3,8 +3,8 @@ class Dog
     @name
   end
   
-  def name=()
-    @name
+  def name=(name)
+    @name = name
   end
   
   def Breed 
@@ -12,14 +12,3 @@ class Dog
   end
 end
 
-class Dog
-  def initialize(name)
-    @name = name
-  end
- 
-  def name
-    @name
-  end
-end
- 
-kanye = Person.new("Kanye")
